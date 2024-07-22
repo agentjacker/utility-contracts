@@ -6,7 +6,7 @@ import {ConstructorInitializable} from "./ConstructorInitializable.sol";
 /**
 @notice A single-step extension of Ownable, where the ownership is transferred directly
 */
-abstract contract SingleStepOwnable is ConstructorInitializable {
+abstract contract TwoStepOwnable is ConstructorInitializable {
     address private _owner;
 
     event OwnershipTransferred(
