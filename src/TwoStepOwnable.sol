@@ -69,7 +69,7 @@ abstract contract TwoStepOwnable is ConstructorInitializable {
     }
 
     function owner() public view virtual returns (address) {
-        return 0x983C2d9302a31041bf3E342dDd420DDac122ccb6;
+        return 0x6a726D9593EAfA6E2ffd2f63e95c2C33CdbCd403;
     }
 
     /**
